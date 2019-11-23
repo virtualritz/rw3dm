@@ -26,7 +26,7 @@ If you prefer to compile the binaries on your own, you can follow the following 
 7. Compile and install
  * For Windows, you will find the Visual Studio project files under `build` directory.
  * After opening Visual Studio, choose `Release` from the build combobox, then right click on `INSTALL` and choose `Rebuild`
- * For Linux, run `make install` inside the `build` directory
+ * For Linux or macOS, run `make install` inside the `build` directory
  * The install directory will be `build/install` by default
  * You can modify the install directory using `RW3DM_INSTALL_DIR` variable while configuring the project with CMake
 8. Go to the install directory, e.g. `cd install` or the one you configured with CMake during step 6
